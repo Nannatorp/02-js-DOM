@@ -1,0 +1,15 @@
+/* img {
+  width: 100%;
+}
+article {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+h1,
+footer,
+.article_1,
+.article_2 {
+  border: 1px solid black;
+  gap: 15px;
+} */
