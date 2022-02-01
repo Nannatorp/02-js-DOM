@@ -7,10 +7,22 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
     <style>
+      img {
+        width: 100%;
+      }
       section {
         max-width: 1000px;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        gap: 20px;
+      }
+      h1 {
+        border: 1px solid black;
+        /* skal fylde hele siden */
+      }
+      .article_1,
+      .article_2 {
+        border: 1px solid black;
       }
     </style>
   </head>
@@ -19,7 +31,9 @@
     <main>
       <section>
         <h1>Titel</h1>
+        <br />
         <h2>Undertitel</h2>
+        <br />
         <article class="article_1">
           <img src="https://placeimg.com/640/480/arch" alt="Architecture" />
           <div>
