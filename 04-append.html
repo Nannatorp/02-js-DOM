@@ -113,6 +113,17 @@
       h3_3.appendChild(overskriftText);
       // tilføj overskift til article
       newArticle.appendChild(h3_3);
+
+      let billede3 = document.createElement("img");
+      billede3.src = "https://placeimg.com/640/480/tech";
+      billede3.alt = "Tech";
+      newArticle.appendChild(billede3);
+
+      let p3 = document.createElement("p");
+      let pText = document.createTextNode("Dette er en p tekst");
+      p3.appendChild(pText);
+      newArticle.appendChild(p3);
+
       // tilføj article til sektion
       mainSection.appendChild(newArticle);
     </script>
